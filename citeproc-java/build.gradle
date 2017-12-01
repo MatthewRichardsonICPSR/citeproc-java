@@ -16,8 +16,8 @@ apply plugin: 'nebula.optional-base'
 import de.undercouch.gradle.tasks.download.Download
 import org.apache.commons.lang3.SystemUtils
 
-// citeproc version 1.1.137
-ext.citeprocJsSHA = '2d1bb8dddf152f7c3e034dda3df3ec7e426939a3'
+// citeproc version 1.1.181
+ext.citeprocJsSHA = 'a4e009fd6d52856db91821cf34948434751694d5'
 ext.citeprocJsUrlBase = "https://raw.githubusercontent.com/Juris-M/citeproc-js/${ext.citeprocJsSHA}/"
 ext.citeprocJsUrl = ext.citeprocJsUrlBase + 'citeproc.js'
 ext.citeprocZip = ext.citeprocJsSHA + '.zip'
